@@ -46,7 +46,8 @@
 				<article id="main">
 					<header class="special container">
 						<h2><strong>Metadata Alingment</strong></h2>
-						<p>Here we align the differnt metadata standards.</p>
+						<p>Different metadata standards use different terms to express the same meaning, expecially for metadata standards that belong to different domains. In this page we align each metadata standard in order to normalize the use of different expressions. We divide the property to be aligned in 4 main groups: properties related to the people (<a href="#who">Who</a>), properties related to time (<a href="#when">When</a>), properties related to places (<a href="#where">Where</a>) and properties related to the actual content of the items (<a href="#what">What</a>). There are cases in which there is no expression available for addressing a specifc issue. Our suggestion is to indicate those missing expressions instead of streatching the meaning of a term: the missing terms, in our vision, represent the differences between the different domains and thus the differences between the metadata standards.</p>
+						<p>The following tables provide a visual representation of the metadata alingment.</p>
 					</header>
 
 					<!-- One -->
@@ -55,7 +56,7 @@
 							<!-- Content -->
 								<div class="content">
 									<header>
-										<h3>Who</h3>
+										<h3 id="who">Who</h3>
 									</header>
 										<table class="table table-striped table-bordered">
 											<thead>
@@ -125,7 +126,7 @@
 								</div>
 								<div class="content">
 									<header>
-										<h3>When</h3>
+										<h3 id="when">When</h3>
 									</header>
 										<table class="table table-striped table-bordered">
 											<thead>
@@ -170,7 +171,7 @@
 								</div>
 								<div class="content">
 									<header>
-										<h3>Where</h3>
+										<h3 id="where">Where</h3>
 									</header>
 										<table class="table table-striped table-bordered">
 											<thead>
@@ -230,7 +231,7 @@
 								</div>
 								<div class="content">
 									<header>
-										<h3>What</h3>
+										<h3 id="what">What</h3>
 									</header>
 										<table class="table table-striped table-bordered">
 											<thead>
@@ -248,7 +249,7 @@
 										  </tr>
 										  	</thead>
 										  <tr>
-										  	<td>What is the title of the item?</td>
+										  	<td>What is the title?</td>
 										  	<td>1.1 Title Proper</td>
 										  	<td>Main title</td>
 										  	<td>Title</td>
@@ -294,6 +295,46 @@
 										 	<td>Format</td>
 										 	<td>Format</td>
 										 	<td>337 - Media Type $a</td>
+										 </tr>
+										 <tr>
+										 	<td>What is the description?</td>
+										 	<td>7.10 Other Notes</td>
+										 	<td>[ebucore:description]</td>
+										 	<td>Description</td>
+										 	<td>None</td>
+										 	<td>description</td>
+										 	<td>Description</td>
+										 	<td>4.3 Description</td>
+										 	<td>Description</td>
+										 	<td>520 - Summary $a</td>
+										 </tr>
+										 <tr>
+										 	<td>What is the language?</td>
+										 	<td>7.1.2 Notes on the language of the resource</td>
+										 	<td>[ebucore:Language]</td>
+										 	<td>None</td>
+										 	<td>language</td>
+										 	<td>language</td>
+										 	<td>Description</td>
+										 	<td>4.15 language</td>
+										 	<td>Language</td>
+										 	<td>100 - Main Entry $l
+										 	<br>546 - Language Note $a</br></td>
+										 </tr>
+										 <tr>
+											 <td>What is the subject?</td>
+											 <td>None</td>
+											 <td>[ebucore:Subject]</td>
+											 <td>Subject Code</td>
+											 <td>None</td>
+											 <td>is_about</td>
+											 <td>Subject</td>
+											 <td>4.2 Subject</td>
+											 <td>Subject</td>
+											 <td>600, 610, 611, 630, 647, 648, 650, 651 - Subject Added Entry</td>
+										 </tr>
+										 <tr>
+										 	<td></td>
 										 </tr>
 										</table>
 								</div>

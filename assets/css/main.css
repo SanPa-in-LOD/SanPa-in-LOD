@@ -1877,7 +1877,9 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 			}
-
+		.image.lato img{
+				width: 100%;
+		}
 /* Icon */
 
 	.icon {
@@ -3348,3 +3350,13 @@ input, select, textarea {
 .item_box2 {
 			  border: 1px solid #9a9a9a;
 }
+
+table thead th {
+	font-weight:bold;
+	position: sticky; top: 0;
+}
+
+.metadata_title {
+	font-weight: bold;
+}
+

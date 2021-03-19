@@ -1729,8 +1729,14 @@ input, select, textarea {
 		margin-bottom: 5em;
 		padding-top: 7em;
 		position: relative;
-		text-align: center;
 	}
+			header.special h2 {
+			text-align: center;
+		}
+		header.special p {
+			text-align: justify;
+		}
+
 
 		header.special:before, header.special:after {
 			border-bottom: solid 1.5px;
@@ -2256,6 +2262,7 @@ input, select, textarea {
 			background: #fff;
 			color: inherit;
 			padding: 4em;
+			text-align: justify;
 		}
 
 /* Header */
@@ -3343,8 +3350,8 @@ input, select, textarea {
 			  border: 1px solid #ddd;
 			  border-radius: 4px;
 			  padding: 4px;
-			  width: 250px;
-			  height: 300px;
+			  width: 380px;
+			  height: 420px;
 }
 
 .item_box2 {

@@ -59,7 +59,7 @@
 										<h3 id="who" class="metadata_title">Who</h3>
 										<p>Properties related to people who have a role in the creation or distribution of the item.</p>
 									</header>
-										<div class="table-responsive">
+										<div class="table-responsive align-middle">
 										<table class="table table-striped table-bordered">
 											<thead class="thead table-light">
 										  <tr>
@@ -70,7 +70,7 @@
 										    <th>XML MMD</th>
 										    <th>ELI</th>
 										    <th>CCO</th>
-										    <th>DB</th>
+										    <th>DC</th>
 										    <th>EDM</th>  
 										    <th>Marc21</th>
 										  </tr>
@@ -78,51 +78,51 @@
 										  <tr>
 										    <td>Who is the creator of the item?</td>
 										    <td>1.4 Statement of responsability</td>
-										    <td>[ebucore:hasCreator]</td>
+										    <td>ebucore:hasCreator</td>
 										    <td>dc:creator</td>
-										    <td>artist, name</td>
+										    <td>artist>name</td>
 										    <td>passed_by<br>responsability_of</br></td>
 										    <td>Creator, <br>Creator Role</td></td>
-										    <td>4.8 Creator</td>
+										    <td>dc:creator</td>
 										    <td>Creator</td>
-										    <td>100 Main entry - Personal name $a
-										    	<br>245 - Title Statement $c</br></td>
+										    <td>100 Main entry: Personal name $a
+										    	<br>245-Title Statement $c</br></td>
 										  </tr>
 										  <tr>
 										  	<td>Who is the co-creator/contributor?</td>
 										  	<td>1.4 Statement of responsibility, subsequent statement</td>
-										  	<td>[ebucore:hasContributor]</td>
+										  	<td>ebucore:hasContributor</td>
 										  	<td>None</td>
 										  	<td>None</td>
 										  	<td>None</td>
 										  	<td>Creator Role</td>
-										  	<td>4.10 Contributor</td>
+										  	<td>dc:contributor</td>
 										  	<td>dc:contributor</td>
 										  	<td>245 - Title Statement $c, </td>
 										  </tr>
 										  <tr>
 										    <td>Who is the owner of the item's rights?</td>
 										    <td>4.2 Name of publisher, producer and/or distributor</td>
-										    <td>[ebucore:Rights] <br>[ebucore:RightsType]</br></td>
+										    <td>ebucore:Rights <br>ebucore:RightsType</br></td>
 											<td>dc:rights</td>
 											<td>None</td>
 											<td>rights</td>
 											<td>None</td>
-											<td>4.11 Rights</td>
+											<td>dc:rights</td>
 											<td>dc:rights</td>
 											<td>561 - Ownership and Custodial History</td>
 										  </tr>
 										  <tr>
 										    <td>Who is responsible for the distribution?</td>
 										    <td>4.2 Name of publisher, producer and/or distributor</td>
-										    <td>[ebucore:hasPublisher]</td>
+										    <td>ebucore:hasPublisher</td>
 										    <td>None</td>
-										    <td>label-info</td>
+										    <td>label>info</td>
 										    <td>publisher_agent</td>
 										    <td>Creator Role (?)</td>
-										    <td>4.9 Publisher</td>
 										    <td>dc:publisher</td>
-										    <td>260 - Publication, Distribution $b</td>
+										    <td>dc:publisher</td>
+										    <td>260-Publication, Distribution $b</td>
 										  </tr>
 										</table>
 									</div>
@@ -143,7 +143,7 @@
 										    <th>XML MMD</th>
 										    <th>ELI</th>
 										    <th>CCO</th>
-										    <th>DB</th>
+										    <th>DC</th>
 										    <th>EDM</th>  
 										    <th>Marc21</th>
 										  </tr>
@@ -156,7 +156,7 @@
 										    <td>None</td>
 										    <td>date_document</td>
 										    <td>Creation Date</td>
-										    <td>4.12 Date</td>
+										    <td>dc:date</td>
 										    <td>Date Created</td>
 										    <td>260 - Publication, Distribution $g</td>
 										  </tr>
@@ -168,7 +168,7 @@
 										    <td>date</td>
 										    <td>date_publication</td>
 										    <td>Date</td>
-										    <td>4.12 Date</td>
+										    <td>dc:date</td>
 										    <td>Date Issued</td>
 										    <td>260 - Publication, Distribution $c</td>
 										  </tr>
@@ -191,7 +191,7 @@
 										    <th>XML MMD</th>
 										    <th>ELI</th>
 										    <th>CCO</th>
-										    <th>DB</th>
+										    <th>DC</th>
 										    <th>EDM</th>  
 										    <th>Marc21</th>
 										  </tr>
@@ -204,7 +204,7 @@
 										  	<td>None</td>
 										  	<td>None</td>
 										  	<td>Creation Location</td>
-										  	<td>4.7 Coverage</td>
+										  	<td>dc:coverage?</td>
 										  	<td>dc:coverage?</td>
 										  	<td>260 - Publication, Distribution $e</td>
 										  </tr>
@@ -216,7 +216,7 @@
 										  	<td>Country</td>
 										  	<td>None</td>
 										  	<td>None</td>
-										  	<td>4.7 Coverage</td>
+										  	<td>dc:coverage</td>
 										  	<td>None</td>
 										  	<td>260 - Publication, Distribution $a</td>
 
@@ -252,7 +252,7 @@
 										    <th>XML MMD</th>
 										    <th>ELI</th>
 										    <th>CCO</th>
-										    <th>DB</th>
+										    <th>DC</th>
 										    <th>EDM</th>  
 										    <th>Marc21</th>
 										  </tr>
@@ -265,7 +265,7 @@
 										  	<td>title</td>
 										  	<td>number(?)</td>
 										  	<td>Title</td>
-										  	<td>4.1 Title</td>
+										  	<td>dc:title</td>
 										  	<td>Title</td>
 										  	<td>245 - Title Statement $a</td>
 										  </tr>
@@ -289,7 +289,7 @@
 										 	<td>None</td>
 										 	<td>type_document</td>
 										 	<td>Work type</td>
-										 	<td>4.4 type</td>
+										 	<td>dc:type</td>
 										 	<td>Type</td>
 										 	<td>336 - Content Type + Leader 06 Type of record</td>
 										 </tr>
@@ -301,7 +301,7 @@
 										 	<td>format</td>
 										 	<td>None</td>
 										 	<td>Measurements - Format</td>
-										 	<td>Format</td>
+										 	<td>dc:format</td>
 										 	<td>Format</td>
 										 	<td>337 - Media Type $a</td>
 										 </tr>
@@ -313,7 +313,7 @@
 										 	<td>None</td>
 										 	<td>description</td>
 										 	<td>Description</td>
-										 	<td>4.3 Description</td>
+										 	<td>dc:description</td>
 										 	<td>Description</td>
 										 	<td>520 - Summary $a</td>
 										 </tr>
@@ -325,7 +325,7 @@
 										 	<td>language</td>
 										 	<td>language</td>
 										 	<td>Description</td>
-										 	<td>4.15 language</td>
+										 	<td>dc:language</td>
 										 	<td>Language</td>
 										 	<td>100 - Main Entry $l
 										 	<br>546 - Language Note $a</br></td>
@@ -338,7 +338,7 @@
 											 <td>None</td>
 											 <td>is_about</td>
 											 <td>Subject</td>
-											 <td>4.2 Subject</td>
+											 <td>dc:subject</td>
 											 <td>Subject</td>
 											 <td>600, 610, 611, 630, 647, 648, 650, 651 - Subject Added Entry</td>
 										 </tr>

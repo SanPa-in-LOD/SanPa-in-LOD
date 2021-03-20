@@ -130,7 +130,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 1.75em;
 		margin-bottom: 1em;
 		text-transform: uppercase;
@@ -2123,6 +2123,7 @@ input, select, textarea {
 				overflow: hidden;
 				padding: 0.5em 1em 0.5em 1em;
 				table-layout: auto;
+
 			}
 
 			table th {
@@ -3382,3 +3383,18 @@ table thead th {
   text-align: center;
 }
 
+
+.grr {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.grr > li {
+    display: inline-block;
+
+}

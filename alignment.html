@@ -46,7 +46,7 @@
 				<article id="main">
 					<header class="special container">
 						<h2><strong>Metadata Alignment</strong></h2>
-						<p>Different metadata standards employ different terms to express the same meaning This is mostly true for metadata standards that belong to specific domain, such as those related to the cultural heritage, because they tend to use more specific expressions in order to describe a particular kind of objects. In this section we align the metadata standards that were used for describing our items in order to normalize the use of different expressions. We have divided the properties that needed alignment in 4 key groups: properties related to the people (<a href="#who">Who</a>) inolved, properties related to the time (<a href="#when">When</a>) in which the item was created or published, properties related to places (<a href="#where">Where</a>) in which the item could be collocated and properties related to the actual content of the items (<a href="#what">What</a>). There are cases in which there is no expression available for addressing a specific property of the item. Our suggestion is to state those missing expressions instead of stretching the sense of a particular term to fit the description. We believe that the missing terms represent the discrepancies between the use of a particular metadata standard and, as a consequence, the differences between different cultural domains.</p>
+						<p>Different metadata standards employ different terms to express the same meaning This is mostly true for metadata standards that belong to specific domain, such as those related to the cultural heritage, because they tend to use more specific expressions in order to describe a particular kind of objects. In this section we <strong>align the metadata standards</strong> that were used for describing our items in order to normalize the use of different expressions. We have divided the properties that needed alignment in <strong>four key groups</strong>: properties related to the <strong>people</strong> (<a href="#who">Who</a>) inolved, properties related to the <strong>time</strong> (<a href="#when">When</a>) in which the item was created or published, properties related to <strong>places</strong> (<a href="#where">Where</a>) in which the item could be collocated and properties related to the actual <strong>content</strong> of the items (<a href="#what">What</a>). There are cases in which there is no expression available for addressing a specific property of the item. Our suggestion is to state those missing expressions instead of stretching the sense of a particular term to fit the description. We believe that <strong>the missing expressions represent the discrepancies between the use of a particular metadata standard</strong> and, as a consequence, the differences between different cultural domains.</p>
 						<br></br>
 						<p>The following tables provide a visual representation of the metadata alignment.</p>
 					</header>
@@ -84,11 +84,12 @@
 										    <td>dc:creator</td>
 										    <td>artist>name</td>
 										    <td>passed_by<br>responsability_of</br></td>
-										    <td>Creator, <br>Creator Role</td></td>
+										    <td><ul class="grr"><il>Creator</il>
+										    					<br><il>Creator Role</il></br></ul></td>
 										    <td>dc:creator</td>
 										    <td>Creator</td>
 										    <td><ul class="grr"><li>100 Main entry: Personal name $a</li>
-										    	<br><li>245-Title Statement $c</br></li></ul></td>
+										    					<br><li>245-Title Statement $c</li></br></ul></td>
 										  </tr>
 										  <tr>
 										  	<td>Who is the co-creator/contributor?</td>
@@ -100,7 +101,7 @@
 										  	<td>Creator Role</td>
 										  	<td>dc:contributor</td>
 										  	<td>dc:contributor</td>
-										  	<td>245 - Title Statement $c, </td>
+										  	<td>245 - Title Statement $c</td>
 										  </tr>
 										  <tr>
 										    <td>Who is the owner of the item's rights?</td>
@@ -121,7 +122,7 @@
 										    <td>-</td>
 										    <td>label>info</td>
 										    <td>publisher_agent</td>
-										    <td>Creator Role (?)</td>
+										    <td>Corporate body</td>
 										    <td>dc:publisher</td>
 										    <td>dc:publisher</td>
 										    <td>260-Publication, Distribution $b</td>
@@ -154,7 +155,8 @@
 										  <tr>
 										    <td>When was the item created?</td>
 										    <td>4.3 Date of publication, production and/or distribution</td>
-										    <td>[ebucore:date]</td>
+										    <td><ul class="grr"><il>ebucore:date</il>
+										    					<br><il>Creation date/time</il></br></ul></td>
 										    <td>Date Created</td>
 										    <td>-</td>
 										    <td>date_document</td>
@@ -166,7 +168,7 @@
 										  <tr>
 										    <td>When was the item published?</td>
 										    <td>4.3 Date of publication, production and/or distribution</td>
-										    <td>Release date*</td>
+										    <td>Distribution date</td>
 										    <td>-</td>
 										    <td>date</td>
 										    <td>date_publication</td>
@@ -202,13 +204,13 @@
 										  <tr>
 										  	<td>Where was the item created?</td>
 										  	<td>4.4 Place of printing or manufacture</td>
-										  	<td>[ebucore:Location]</td>
+										  	<td>ebucore:Location</td>
 										  	<td>Location created</td>
 										  	<td>-</td>
 										  	<td>-</td>
 										  	<td>Creation Location</td>
-										  	<td>dc:coverage?</td>
-										  	<td>dc:coverage?</td>
+										  	<td>dc:coverage</td>
+										  	<td>dc:coverage</td>
 										  	<td><ul class="grr"><il>260 - Publication, Distribution $e</il></ul></td>
 										  </tr>
 										  <tr>
@@ -227,7 +229,7 @@
 										 <tr>
 										 	<td>Where is the item located now?</td>
 										 	<td>-</td>
-										 	<td>[ebucore:hasArtefactLocation]</td>
+										 	<td>ebucore:hasArtefactLocation</td>
 										 	<td>-</td>
 										 	<td>-</td>
 										 	<td>-</td>
@@ -261,19 +263,19 @@
 										  </tr>
 										  	</thead>
 										  <tr>
-										  	<td>What is the title?</td>
+										  	<td>What is the title of the item?</td>
 										  	<td>1.1 Title Proper</td>
 										  	<td>Main title</td>
 										  	<td>Title</td>
 										  	<td>title</td>
-										  	<td>number(?)</td>
+										  	<td>title</td>
 										  	<td>Title</td>
 										  	<td>dc:title</td>
 										  	<td>Title</td>
 										  	<td><ul class="grr"><il> 245 - Title Statement $a</il></ul></td>
 										  </tr>
 										  <tr>
-										  	<td>What is the alternative title?</td>
+										  	<td>What is the alternative title of the item?</td>
 										  	<td>Parallel title</td>
 										  	<td>Published title</td>
 										  	<td>-</td>
@@ -285,10 +287,10 @@
 										  	<td>245 - Title Statement $b</td>
 										  </tr>
 										 <tr>
-										 	<td>What is the type?</td>
+										 	<td>What is the type of the item?</td>
 										 	<td>Content form</td>
-										 	<td>[ebucore:Type]</td>
-										 	<td>Digital Source Type (?)</td>
+										 	<td>ebucore:Type</td>
+										 	<td>-</td>
 										 	<td>-</td>
 										 	<td>type_document</td>
 										 	<td>Work type</td>
@@ -297,9 +299,9 @@
 										 	<td>336 - Content Type + Leader 06 Type of record</td>
 										 </tr>
 										 <tr>
-										 	<td>What is the media format?</td>
+										 	<td>What is the media format of the item?</td>
 										 	<td>0.2 Media type</td>
-										 	<td>[ebucore:Format]</td>
+										 	<td>ebucore:Format</td>
 										 	<td>-</td>
 										 	<td>format</td>
 										 	<td>-</td>
@@ -309,9 +311,9 @@
 										 	<td>337 - Media Type $a</td>
 										 </tr>
 										 <tr>
-										 	<td>What is the description?</td>
+										 	<td>What is the description of the item?</td>
 										 	<td>7.10 Other Notes</td>
-										 	<td>[ebucore:description]</td>
+										 	<td>ebucore:description</td>
 										 	<td>Description</td>
 										 	<td>-</td>
 										 	<td>description</td>
@@ -321,9 +323,9 @@
 										 	<td>520 - Summary $a</td>
 										 </tr>
 										 <tr>
-										 	<td>What is the language?</td>
+										 	<td>What is the language of the item?</td>
 										 	<td>7.1.2 Notes on the language of the resource</td>
-										 	<td>[ebucore:Language]</td>
+										 	<td>ebucore:Language</td>
 										 	<td>-</td>
 										 	<td>language</td>
 										 	<td>language</td>
@@ -334,9 +336,9 @@
 										 	<br>546 - Language Note $a</br></td>
 										 </tr>
 										 <tr>
-											 <td>What is the subject?</td>
+											 <td>What is the subject of the item?</td>
 											 <td>-</td>
-											 <td>[ebucore:Subject]</td>
+											 <td>ebucore:Subject</td>
 											 <td>Subject Code</td>
 											 <td>-</td>
 											 <td>is_about</td>

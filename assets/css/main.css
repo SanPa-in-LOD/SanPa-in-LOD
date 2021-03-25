@@ -2828,7 +2828,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				background-size: 15em, 15em, auto, cover;
+				background-size: auto, auto, auto, cover;
 			}
 
 		/* Main */
@@ -3283,7 +3283,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				background-size: 10em, 10em, auto, cover;
+				background-size: auto, auto, auto, cover;
 				padding: 6em 0;
 			}
 
@@ -3382,7 +3382,7 @@ table thead th {
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
+  max-width: 420px;
   margin: auto;
   text-align: center;
 }
@@ -3401,4 +3401,8 @@ table thead th {
 .grr > li {
     display: inline-block;
 
+}
+
+.card_text {
+	font-size: 85%;
 }

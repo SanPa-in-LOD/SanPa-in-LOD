@@ -3406,3 +3406,9 @@ table thead th {
 .card_text {
 	font-size: 85%;
 }
+
+@media screen and (max-width: 1920px) {
+  #logo_hidden {
+    display: none !important;
+  }
+}

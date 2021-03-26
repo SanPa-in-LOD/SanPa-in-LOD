@@ -1886,6 +1886,7 @@ input, select, textarea {
 			}
 		.image.lato img{
 				width: 100%;
+				display: block;
 		}
 /* Icon */
 
@@ -1893,6 +1894,25 @@ input, select, textarea {
 		text-decoration: none;
 		position: relative;
 	}
+
+		.icon.alt {
+    			text-shadow: 1px 1px 1px #ccc;
+		}
+			.icon.alt.github {
+				color: #dcad8b;
+
+			}
+
+			.icon.alt.twitter {
+				color: #7fb7d2;
+
+			}		
+			.icon.alt.facebook {
+				color: #7490c3;
+			}
+			.icon.alt.linkedin {
+			  	 color: #0a66c2;
+			}
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;

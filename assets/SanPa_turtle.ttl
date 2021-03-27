@@ -23,6 +23,9 @@
 @prefix person: <http://www.w3.org/ns/person/>.
 @prefix gndo: <https://d-nb.info/standards/elementset/gnd#>.
 @prefix geonames: <http://sws.geonames.org/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
 
 <object/SanPa>
     nmm:director <http://viaf.org/viaf/35146635435241981343>; #Gianluca Neri
@@ -40,28 +43,28 @@
     dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/SanPa_-_Luci_e_tenebre_di_San_Patrignano>.   #documentary
 <object/ritratto_di_vincenzo_muccioli>
     crm:P2_has_type <http://vocab.getty.edu/aat/300015637>; #portrait
-    <https://sanpa-in-lod.github.io/SanPa-in-LOD/painting/ritratto-vincenzo-muccioli> rdfs:label "Vincenzo Muccioli" @it;
-    crm:P102_has_title "Ritratto di Vincenzo Muccioli";
-    crm:P90_has_value "300 cm x 300 cm";
-    crm:P32_used_general_tecnhique "Oil on canvas";
+    crm:P102_has_title <https://sanpa-in-lod.github.io/SanPa-in-LOD/title/ritratto-vincenzo-muccioli>;
+    crm:P90_has_value <http://vocab.getty.edu/aat/300266036>; #dimensions
+    crm:P32_used_general_tecnhique <https://sanpa-in-lod.github.io/SanPa-in-LOD/techniques/oil-on-canvas>;
     dc:creator <https://viaf.org/viaf/871725/>; #Yan Pei-Ming
     dbo:wikiPageExternalLink <https://en.wikipedia.org/wiki/Yan_Pei-Ming>;
-    dc:date "2018";
+    dc:date "2018"^^xsd:dateTime;
     crm:P51_has_former_or_current_owner <http://Person/4779217282Moratti>; #Gian Marco Moratti
     dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Gian_Marco_Moratti>;
-    foaf:topic <https://viaf.org/viaf/53224843/>; #Vincenzo Muccioli
+    foaf:topic <https://sanpa-in-lod.github.io/SanPa-in-LOD/person/Vincenzo_Muccioli>; #Vincenzo Muccioli
     dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Vincenzo_Muccioli>.
 <person/Vincenzo_Muccioli>
-    rdf:type foaf:person;
-    foaf:name "Vincenzo Muccioli";
-    foaf:givenName "Vincenzo";
-    foaf:FamilyName "Muccioli";
-    foaf:gender "male";
-    gndo:dateOfBirth "6-01-1934";
-    gndo:dateOfDeath "19-09-1995";
+    rdf:type <https://sanpa-in-lod.github.io/SanPa-in-LOD/person>;
+    foaf:name <https://sanpa-in-lod.github.io/SanPa-in-LOD/person/names/vincenzo-muccioli>;
+    foaf:givenName "Vincenzo"^^xsd:string;
+    foaf:FamilyName "Muccioli"^^xsd:string;
+    foaf:gender <http://vocab.getty.edu/aat/300189559>; #male
+    gndo:dateOfBirth "6-01-1934"^^xsd:dateTime;
+    gndo:dateOfDeath "19-09-1995"^^xsd:dateTime;
     person:placeOfBirth geonames:3169361; #Rimini
     person:placeOfDeath geonames:3214913; #Coriano
-    foaf:isPrimaryTopicOf <object/Ritratto_Muccioli>;
+    owl:sameAs <https://viaf.org/viaf/53224843/> #muccioli
+    foaf:isPrimaryTopicOf <https://sanpa-in-lod.github.io/SanPa-in-LOD/object/Ritratto_Muccioli>;
     dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Vincenzo_Muccioli>.
 <object/Legge_Jervolino_Vassalli>
     rdf:type foaf:Document;

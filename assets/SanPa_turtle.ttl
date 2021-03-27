@@ -38,9 +38,10 @@
     crm:P62_depicts "San Patrignano";
     dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Comunit%C3%A0_di_San_Patrignano> ;  #san patrignano community
     dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/SanPa_-_Luci_e_tenebre_di_San_Patrignano>.   #documentary
-<object/Ritratto_Muccioli>
-    rdf:type crm:P2_has_type;
-    crm:E_35_Title "Ritratto di Vincenzo Muccioli";
+<object/ritratto_di_vincenzo_muccioli>
+    crm:P2_has_type <http://vocab.getty.edu/aat/300015637>; #portrait
+    <https://sanpa-in-lod.github.io/SanPa-in-LOD/painting/ritratto-vincenzo-muccioli> rdfs:label "Vincenzo Muccioli" @it;
+    crm:P102_has_title "Ritratto di Vincenzo Muccioli";
     crm:P90_has_value "300 cm x 300 cm";
     crm:P32_used_general_tecnhique "Oil on canvas";
     dc:creator <https://viaf.org/viaf/871725/>; #Yan Pei-Ming

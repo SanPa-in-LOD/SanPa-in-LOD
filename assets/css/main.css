@@ -113,9 +113,13 @@ input, select, textarea {
 		text-decoration: none;	}
 	a.alt{
 		color: black;
-
-
 	}
+
+	a.alt.download {
+		position: relative;
+		color:  #1a1a1a;
+		text-shadow: 1px 1px 1px #ccc;
+		}
 		a:hover {
 			border-bottom-color: transparent;
 		}
@@ -1900,7 +1904,6 @@ input, select, textarea {
 		}
 			.icon.alt.github {
 				color: #dcad8b;
-
 			}
 
 			.icon.alt.twitter {

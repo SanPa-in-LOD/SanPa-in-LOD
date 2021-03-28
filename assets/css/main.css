@@ -110,7 +110,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		color: #3fb1a3;
-		text-decoration: none;	}
+		text-decoration: underline dotted;	}
 	a.alt{
 		color: black;
 	}
@@ -2109,6 +2109,11 @@ input, select, textarea {
 			display: inline-block;
 			padding: 0 0 0 1.5em;
 		}
+		ul.buttons.items li {
+			background-color: #fff;
+			opacity: 0.7;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+		}
 
 			ul.buttons li:first-child {
 				padding: 0;
@@ -3386,8 +3391,8 @@ input, select, textarea {
 			  border: 1px solid #ddd;
 			  border-radius: 4px;
 			  padding: 4px;
-			  width: 350px;
-			  height: 400px;
+			  width: 330px;
+			  height: 350px;
 }
 
 .item_box2 {

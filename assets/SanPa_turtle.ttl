@@ -46,8 +46,7 @@
     crm:P102_has_title <https://sanpa-in-lod.github.io/SanPa-in-LOD/titles/ritratto-vincenzo-muccioli>;
     crm:P90_has_value <http://vocab.getty.edu/aat/300266036>; #dimensions
     crm:P32_used_general_tecnhique <https://sanpa-in-lod.github.io/SanPa-in-LOD/techniques/oil-on-canvas>;
-    dc:creator <https://sanpa-in-lod.github.io/SanPa-in-LOD/person/names/Yan-Pei-Ming>; #Yan Pei-Ming
-    owl:sameAs <https://viaf.org/viaf/871725/>; #Yan Pei-Ming
+    dc:creator <https://sanpa-in-lod.github.io/SanPa-in-LOD/person/Yan-Pei-Ming>; #Yan Pei-Ming
     dbo:wikiPageExternalLink <https://en.wikipedia.org/wiki/Yan_Pei-Ming>;
     dc:date "2018"^^xsd:dateTime;
     crm:P51_has_former_or_current_owner <http://Person/4779217282Moratti>; #Gian Marco Moratti
@@ -56,6 +55,8 @@
     dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Vincenzo_Muccioli>.
 <title/ritratto-vincenzo-muccioli>
     rdf:label "Ritratto di Vincenzo Muccioli"^^xsd:string.
+<person/Yan-Pei-Ming>
+    owl:sameAs <https://viaf.org/viaf/871725/>; #Yan Pei-Ming
 <person/Vincenzo_Muccioli>
     rdf:type <https://sanpa-in-lod.github.io/SanPa-in-LOD/person>;
     foaf:name <https://sanpa-in-lod.github.io/SanPa-in-LOD/person/names/vincenzo-muccioli>;

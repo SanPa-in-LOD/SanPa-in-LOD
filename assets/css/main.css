@@ -3395,10 +3395,11 @@ input, select, textarea {
 			  height: 350px;
 }
 
-.item_box2 {
+.item_box2 {  background-color: #e8eef4;
 			  border: 2px solid #9a9a9a;
 			  border-radius: 4px;
 			  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 
 }
 

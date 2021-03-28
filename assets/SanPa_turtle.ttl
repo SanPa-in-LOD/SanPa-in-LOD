@@ -29,18 +29,22 @@
 
 <object/SanPa>
     nmm:director <http://viaf.org/viaf/35146635435241981343>; #Gianluca Neri
-    crm:P72_has_language "Italian";
-    nmm:genre "Documentary";
-    dcterms:title "SanPa, sins of the saviour";
-    dcterms:alternative "SanPa, luci e tenebre su San Patrignano";
-    nmm:releaseDate "30-12-2020";
+    crm:P72_has_language <http://d-nb.info/gnd/4114056-4>; #italian (by library of congress)
+    nmm:genre <http://id.loc.gov/authorities/subjects/sh85088115>; #documentary 
+    dcterms:title <https://sanpa-in-lod.github.io/SanPa-in-LOD/object/names/SanPa_sins_of_the_saviour> ;#"SanPa, sins of the saviour"
+    dcterms:alternative <https://sanpa-in-lod.github.io/SanPa-in-LOD/object/names/SanPa_luci_e_tenebre_su_San_Patrignano> ;#"SanPa, luci e tenebre su San Patrignano";
+    nmm:releaseDate "30-12-2020"^^xsd:dateTime;
     oad:isContainedIn <http://viaf.org/viaf/129442622>; #IMDb
     ebucore:isReleasedBy <http://viaf.org/viaf/110144647635343459670>; #Netflix
     nmm:writer <http://viaf.org/viaf/35146635435241981343>; #Gianluca Neri
     nmm:writer <http://viaf.org/viaf/238144647696733193184>; #Carlo Gabardini
-    crm:P62_depicts "San Patrignano";
+    crm:P62_depicts <https://sanpa.in-lod.github.io/SanPa-in-LOD/entity/names/San_Patrignano>; #san patrignano
     dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Comunit%C3%A0_di_San_Patrignano> ;  #san patrignano community
     dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/SanPa_-_Luci_e_tenebre_di_San_Patrignano>.   #documentary
+<names/SanPa_sins_of_the_saviour>
+    rdf:label "SanPa, sins of the Saviour"@en. 
+<names/SanPa_luci_e_tenebre_su_San_Patrignano>
+    rdf:label "SanPa, luci e tenebre su San Patrignano"@it. 
 <object/ritratto_di_vincenzo_muccioli>
     crm:P2_has_type <http://vocab.getty.edu/aat/300015637>; #portrait
     crm:P102_has_title <https://sanpa-in-lod.github.io/SanPa-in-LOD/titles/ritratto-vincenzo-muccioli>;

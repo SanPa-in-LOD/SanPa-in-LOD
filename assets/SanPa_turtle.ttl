@@ -60,7 +60,7 @@
 <title/ritratto-vincenzo-muccioli>
     rdf:label "Ritratto di Vincenzo Muccioli"^^xsd:string.
 <person/Yan-Pei-Ming>
-    owl:sameAs <https://viaf.org/viaf/871725/>; #Yan Pei-Ming
+    owl:sameAs <https://viaf.org/viaf/871725/>. #Yan Pei-Ming
 <person/Vincenzo_Muccioli>
     rdf:type <https://sanpa-in-lod.github.io/SanPa-in-LOD/person>;
     foaf:name <https://sanpa-in-lod.github.io/SanPa-in-LOD/person/names/vincenzo-muccioli>;

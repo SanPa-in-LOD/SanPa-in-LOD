@@ -68,12 +68,12 @@
     owl:sameAs <https://viaf.org/viaf/53224843/>; #muccioli
     foaf:isPrimaryTopicOf <https://sanpa-in-lod.github.io/SanPa-in-LOD/object/Ritratto_Muccioli>;
     dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Vincenzo_Muccioli>.
-<object/Legge_Jervolino_Vassalli>
-    rdf:type foaf:Document;
-    eli:title "Testo unico delle leggi in materia di discplina  degli stupefacenti e sostanze psicotrope, prevenzione, cura e riabilitazione dei relativi stati di tossicodipendenza";
-    dcterms:alternative "Legge Vassalli-Jervolino";
-    eli:date_publication "10/9/1990";
-    eli:first_date_entry_in_force "11/15/1990";
+<object/legge-jervolino-vassalli>
+    rdf:type <http://vocab.getty.edu/aat/300417694>; #law
+    eli:title "Testo unico delle leggi in materia di discplina  degli stupefacenti e sostanze psicotrope, prevenzione, cura e riabilitazione dei relativi stati di tossicodipendenza"^^xsd:string;
+    dcterms:alternative <https://sanpa-in-lod.github.io/SanPa-in-LOD/titles/legge-vassalli-jervolino>;
+    eli:date_publication "10/9/1990"^^xsd:dateTime;
+    eli:first_date_entry_in_force "11/15/1990"^^xsd:dateTime;
     eli:is_about <https://id.loc.gov/authorities/subjects/sh85039719.html>; #drugs
     eli:publisher_agent <https://viaf.org/viaf/50917594/>; 
     #Rosa Russo Jervolino
@@ -81,15 +81,15 @@
     eli:publisher_agent <https://viaf.org/viaf/34525599/>;
     #Giuliano Vassalli
     dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Giuliano_Vassalli>;
-    eli:responsability_of_agent <https://id.loc.gov/authorities/names/no93011056.html>. #Gazzetta Ufficiale della Repubblica Italiana
-<person/Rosa_Russo_Jervolino>
-    rdf:type foaf:person;
-    foaf:name "Rosa Russo Jervolino";
-    foaf:givenName "Rosa";
-    foaf:FamilyName "Jervolino";
-    foaf:gender <https://id.loc.gov/authorities/subjects/sh85047734.html>; #female;
-    gndo:dateOfBirth "17-09-1936";
-    person:placeOfBirth <https://www.geonames.org/3172394/naples.html>; #Napoli
-    gndo:professionOrOccupation "politician";
-    dcterms:contributor <object/Legge_Jervolino_Vassalli>;
-    dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Rosa_Russo_Iervolino>.
+    eli:responsability_of_agent <http://id.loc.gov/authorities/names/no93011056>. #Gazzetta Ufficiale della Repubblica Italiana
+<person/rosa-russo-jervolino>
+    rdf:type <https://sanpa-in-lod.github.io/SanPa-in-LOD/person>;
+    foaf:name <https://sanpa-in-lod.github.io/SanPa-in-LOD/person/names/rosa-russo-jervolino>;
+    foaf:givenName "Rosa"^^xsd:string;
+    foaf:FamilyName "Jervolino"^^xsd:string;
+    foaf:gender <http://vocab.getty.edu/aat/300189557>; #female;
+    gndo:dateOfBirth "17-09-1936"^^xsd:dateTime;
+    person:placeOfBirth geonames:3172394; #Napoli
+    gndo:professionOrOccupation <http://vocab.getty.edu/aat/300025474>; #politician
+    owl:sameAs <https://viaf.org/viaf/50917594/>; #Jervolino
+    dcterms:contributor <object/legge-jervolino-vassalli>.

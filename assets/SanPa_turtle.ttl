@@ -66,7 +66,7 @@
     person:placeOfBirth geonames:3169361; #Rimini
     person:placeOfDeath geonames:3214913; #Coriano
     owl:sameAs <https://viaf.org/viaf/53224843/>; #muccioli
-    foaf:isPrimaryTopicOf <https://sanpa-in-lod.github.io/SanPa-in-LOD/object/Ritratto_Muccioli>;
+    foaf:isPrimaryTopicOf <https://sanpa-in-lod.github.io/SanPa-in-LOD/object/ritratto-di-vincenzo-muccioli>;
     dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Vincenzo_Muccioli>.
 <object/legge-jervolino-vassalli>
     rdf:type <http://vocab.getty.edu/aat/300417694>; #law

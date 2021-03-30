@@ -1,0 +1,392 @@
+<!DOCTYPE HTML>
+<!--
+	Twenty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Metadata Alignment</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="alt">
+					<h1 id="logo"><a href="index.html">Home</span></a></h1>
+					<nav id="nav">
+						<ul>
+							<li ><a id="logo_hidden" href="index.html">Home</a></li>							
+							<li class=""><a href="Domain.html">Study of the Domain</a></li>						
+							<li class="submenu current">
+								<a href="#">Knowledge Organization</a>
+								<ul>
+									<li><a href="ermodel.html">E/R Model</a></li>
+									<li><a href="analysis.html">Metadata Analysis</a></li>
+									<li><a href="alignment.html">Metadata Alignment</a></li>									
+									<li><a href="theoretical.html">Theoretical Model</a></li>
+									<li><a href="conceptual.html">Conceptual Model</a></li>
+								</ul>
+							<li class="submenu">
+								<a href="#">Knowledge Representation</a>
+								<ul>
+									<li><a href="data.html">Data Description</a></li>
+									<li><a href="rdf.html">RDF</a></li>
+								</ul>							
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<article id="main">
+					<header class="special container">
+						<h2><strong>Metadata Alignment</strong></h2>
+						<p>Different metadata standards employ different terms to express the same meaning This is mostly true for metadata standards that belong to specific domain, such as those related to the cultural heritage, because they tend to use more specific expressions in order to describe a particular kind of objects. In this section we <strong>align the metadata standards</strong> that were used for describing our items in order to normalize the use of different expressions. We have divided the properties that needed alignment in <strong>four key groups</strong>: properties related to the <strong>people</strong> (<a href="#who">Who</a>) inolved, properties related to the <strong>time</strong> (<a href="#when">When</a>) in which the item was created or published, properties related to <strong>places</strong> (<a href="#where">Where</a>) in which the item could be collocated and properties related to the actual <strong>content</strong> of the items (<a href="#what">What</a>). There are cases in which there is no expression available for addressing a specific property of the item. Our suggestion is to state those missing expressions instead of stretching the sense of a particular term to fit the description. We believe that <strong>the missing expressions represent the discrepancies between the use of a particular metadata standard</strong> and, as a consequence, the differences between different cultural domains.</p>
+						<br></br>
+						<p>The following tables provide a visual representation of the metadata alignment.</p>
+					</header>
+
+					<!-- One -->
+						<section class="wrapper style4 container">
+
+							<!-- Content -->
+								<div class="content">
+									<section>
+									<header>
+										<h3 id="who" class="metadata_title">Who</h3>
+										<p>Properties related to <strong>people</strong> who have a role in the creation or distribution of the item.</p>
+									</header>
+										<div class="table-responsive align-middle">
+										<table class="table table-striped table-bordered">
+											<thead class="thead table-light">
+										  <tr>
+										    <th>Property</th>
+										    <th>ISBD</th>
+										    <th>EBUcore</th>
+										    <th>IPTC</th>
+										    <th><ul class="grr"><il>XML MMD</il></ul></th>
+										    <th>ELI</th>
+										    <th>CCO</th>
+										    <th>DC</th>
+										    <th>EDM</th>  
+										    <th>Marc21</th>
+										  </tr>
+										  	</thead>
+										  <tr>
+										    <td>Who is the creator of the item?</td>
+										    <td>1.4 Statement of responsability</td>
+										    <td>ebucore:hasCreator</td>
+										    <td>dc:creator</td>
+										    <td>artist>name</td>
+										    <td>passed_by<br>responsability_of</br></td>
+										    <td><ul class="grr"><il>Creator</il>
+										    					<br><il>Creator Role</il></br></ul></td>
+										    <td>dc:creator</td>
+										    <td>Creator</td>
+										    <td><ul class="grr"><li>100 Main entry: Personal name $a</li>
+										    					<br><li>245-Title Statement $c</li></br></ul></td>
+										  </tr>
+										  <tr>
+										  	<td>Who is the co-creator/contributor?</td>
+										  	<td>1.4 Statement of responsibility, subsequent statement</td>
+										  	<td>ebucore:hasContributor</td>
+										  	<td>-</td>
+										  	<td>-</td>
+										  	<td>-</td>
+										  	<td>Creator Role</td>
+										  	<td>dc:contributor</td>
+										  	<td>dc:contributor</td>
+										  	<td>245 - Title Statement $c</td>
+										  </tr>
+										  <tr>
+										    <td>Who is the owner of the item's rights?</td>
+										    <td>4.2 Name of publisher, producer and/or distributor</td>
+										    <td>ebucore:Rights <br>ebucore:RightsType</br></td>
+											<td>dc:rights</td>
+											<td>-</td>
+											<td>rights</td>
+											<td>-</td>
+											<td>dc:rights</td>
+											<td>dc:rights</td>
+											<td>561 - Ownership and Custodial History</td>
+										  </tr>
+										  <tr>
+										    <td>Who is responsible for the distribution?</td>
+										    <td>4.2 Name of publisher, producer and/or distributor</td>
+										    <td>ebucore:hasPublisher</td>
+										    <td>-</td>
+										    <td>label>info</td>
+										    <td>publisher_agent</td>
+										    <td>Corporate body</td>
+										    <td>dc:publisher</td>
+										    <td>dc:publisher</td>
+										    <td>260-Publication, Distribution $b</td>
+										  </tr>
+										</table>
+									</div>
+								</section>
+								</div>
+							</br>
+								<div class="content">
+									<header>
+										<h3 id="when" class="metadata_title">When</h3>
+										<p>Properties related a <strong>date/time</strong> in which the item was created or published.</p>
+									</header>
+									<div class="table-responsive">
+										<table class="table table-striped table-bordered">
+											<thead class="thead table-light">
+										  <tr>
+										    <th>Property</th>
+										    <th>ISBD</th>
+										    <th>EBUcore</th>
+										    <th>IPTC</th>
+										    <th><ul class="grr"><il>XML MMD</il></ul></th>
+										    <th>ELI</th>
+										    <th>CCO</th>
+										    <th>DC</th>
+										    <th>EDM</th>  
+										    <th>Marc21</th>
+										  </tr>
+										  	</thead>
+										  <tr>
+										    <td>When was the item created?</td>
+										    <td>4.3 Date of publication, production and/or distribution</td>
+										    <td><ul class="grr"><il>ebucore:date</il>
+										    					<br><il>Creation date/time</il></br></ul></td>
+										    <td>Date Created</td>
+										    <td>-</td>
+										    <td>date_document</td>
+										    <td>Creation Date</td>
+										    <td>dc:date</td>
+										    <td>Date Created</td>
+										    <td><ul class="grr"><li>260 - Publication</li> <li>Distribution $g</li></ul></td>
+										  </tr>
+										  <tr>
+										    <td>When was the item published?</td>
+										    <td>4.3 Date of publication, production and/or distribution</td>
+										    <td>Distribution date</td>
+										    <td>-</td>
+										    <td>date</td>
+										    <td>date_publication</td>
+										    <td>Date</td>
+										    <td>dc:date</td>
+										    <td>Date Issued</td>
+										    <td><ul class="grr"><li>260 - Publication, Distribution $c</li></ul></td>
+										  </tr>
+										</table>
+									</div>
+								</div>
+							</br>
+								<div class="content">
+									<header>
+										<h3 id="where" class="metadata_title">Where</h3>
+										<p>Properties related to <strong>places</strong> where the item is located or it was created.</p>
+									</header>
+									<div class="table-responsive">
+										<table class="table table-striped table-bordered">
+											<thead class="thead table-light">
+										  <tr>
+										    <th>Property</th>
+										    <th>ISBD</th>
+										    <th>EBUcore</th>
+										    <th>IPTC</th>
+										    <th><ul class="grr"><il>XML MMD</il></ul></th>
+										    <th>ELI</th>
+										    <th>CCO</th>
+										    <th>DC</th>
+										    <th>EDM</th>  
+										    <th>Marc21</th>
+										  </tr>
+										  	</thead>
+										  <tr>
+										  	<td>Where was the item created?</td>
+										  	<td>4.4 Place of printing or manufacture</td>
+										  	<td>ebucore:Location</td>
+										  	<td>Location created</td>
+										  	<td>-</td>
+										  	<td>-</td>
+										  	<td>Creation Location</td>
+										  	<td>dc:coverage</td>
+										  	<td>dc:coverage</td>
+										  	<td><ul class="grr"><il>260 - Publication, Distribution $e</il></ul></td>
+										  </tr>
+										  <tr>
+										  	<td>Where was the item published?</td>
+										  	<td>4.1 Place of publication, production and/or distribution</td>
+										  	<td>Publication region</td>
+										  	<td>-</td>
+										  	<td>Country</td>
+										  	<td>-</td>
+										  	<td>-</td>
+										  	<td>dc:coverage</td>
+										  	<td>-</td>
+										  	<td>260 - Publication, Distribution $a</td>
+
+										  </tr>
+										 <tr>
+										 	<td>Where is the item located now?</td>
+										 	<td>-</td>
+										 	<td>ebucore:hasArtefactLocation</td>
+										 	<td>-</td>
+										 	<td>-</td>
+										 	<td>-</td>
+										 	<td>Current Location</td>
+										 	<td>-</td>
+										 	<td>Current Location</td>
+										 	<td>852 - Location $a</td>
+										 </tr>
+										</table>
+									</div>
+								</div>
+							</br>
+								<div class="content">
+									<header>
+										<h3 id="what" class="metadata_title">What</h3>
+										<p>Properties related to the <strong>content</strong> and the <strong>type</strong> of the item.</p>
+									</header>
+									<div class="table-responsive">
+										<table class="table table-striped table-bordered">
+											<thead class="thead table-light">
+										  <tr>
+										    <th>Property</th>
+										    <th>ISBD</th>
+										    <th>EBUcore</th>
+										    <th>IPTC</th>
+										    <th><ul class="grr"><il>XML MMD</il></ul></th>
+										    <th>ELI</th>
+										    <th>CCO</th>
+										    <th>DC</th>
+										    <th>EDM</th>  
+										    <th>Marc21</th>
+										  </tr>
+										  	</thead>
+										  <tr>
+										  	<td>What is the title of the item?</td>
+										  	<td>1.1 Title Proper</td>
+										  	<td>Main title</td>
+										  	<td>Title</td>
+										  	<td>title</td>
+										  	<td>title</td>
+										  	<td>Title</td>
+										  	<td>dc:title</td>
+										  	<td>Title</td>
+										  	<td><ul class="grr"><il> 245 - Title Statement $a</il></ul></td>
+										  </tr>
+										  <tr>
+										  	<td>What is the alternative title of the item?</td>
+										  	<td>Parallel title</td>
+										  	<td>Published title</td>
+										  	<td>-</td>
+										  	<td>-</td>
+										  	<td>-</td>
+										  	<td>Title type: alternate title</td>
+										  	<td>Alternative Title</td>
+										  	<td>dcterms:alternative</td>
+										  	<td>245 - Title Statement $b</td>
+										  </tr>
+										 <tr>
+										 	<td>What is the type of the item?</td>
+										 	<td>Content form</td>
+										 	<td>ebucore:Type</td>
+										 	<td>-</td>
+										 	<td>-</td>
+										 	<td>type_document</td>
+										 	<td>Work type</td>
+										 	<td>dc:type</td>
+										 	<td>Type</td>
+										 	<td>336 - Content Type + Leader 06 Type of record</td>
+										 </tr>
+										 <tr>
+										 	<td>What is the media format of the item?</td>
+										 	<td>0.2 Media type</td>
+										 	<td>ebucore:Format</td>
+										 	<td>-</td>
+										 	<td>format</td>
+										 	<td>-</td>
+										 	<td>Measurements - Format</td>
+										 	<td>dc:format</td>
+										 	<td>Format</td>
+										 	<td>337 - Media Type $a</td>
+										 </tr>
+										 <tr>
+										 	<td>What is the description of the item?</td>
+										 	<td>7.10 Other Notes</td>
+										 	<td>ebucore:description</td>
+										 	<td>Description</td>
+										 	<td>-</td>
+										 	<td>description</td>
+										 	<td>Description</td>
+										 	<td>dc:description</td>
+										 	<td>Description</td>
+										 	<td>520 - Summary $a</td>
+										 </tr>
+										 <tr>
+										 	<td>What is the language of the item?</td>
+										 	<td>7.1.2 Notes on the language of the resource</td>
+										 	<td>ebucore:Language</td>
+										 	<td>-</td>
+										 	<td>language</td>
+										 	<td>language</td>
+										 	<td>Description</td>
+										 	<td>dc:language</td>
+										 	<td>Language</td>
+										 	<td>100 - Main Entry $l
+										 	<br>546 - Language Note $a</br></td>
+										 </tr>
+										 <tr>
+											 <td>What is the subject of the item?</td>
+											 <td>-</td>
+											 <td>ebucore:Subject</td>
+											 <td>Subject Code</td>
+											 <td>-</td>
+											 <td>is_about</td>
+											 <td>Subject</td>
+											 <td>dc:subject</td>
+											 <td>Subject</td>
+											 <td><ul class="grr"><il>600, 610, 611, 630, 647, 648, 650, 651 - Subject Added Entry</il></ul></td>
+										 </tr>
+										</table>
+									</div>
+								</div>
+						</section>
+				</article>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<p>Created by Valentina Cozzi, Susanna Pinotti and Alessandro Rosa for the final examination of the course Knowledge Organization and Cultural Heritage of the Master Degree in Digital Humanities and Digital Knowledge at the University of Bologna</p>
+
+					<ul class="icons">
+						<li><a href="https://twitter.com/UniboDHDK" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/DHDK.unibo" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://github.com/SanPa-in-LOD/SanPa-in-LOD" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
+					</ul>
+
+					<ul class="copyright">
+						<li>&copy; 2021</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>This website was developed for non-commercial use and only for scholar purposes. 
+						<br>All the rights of the images go to their original owners.</br></li>
+					</ul>
+
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

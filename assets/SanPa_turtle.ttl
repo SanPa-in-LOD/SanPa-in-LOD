@@ -1,0 +1,94 @@
+@base <https://sanpa-in-lod.github.io/SanPa-in-LOD/>.
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> . 
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix eac-cpf: <http://culturalis.org/eac-cpf#> . 
+@prefix ebucore: <https://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix eli: <http://data.europa.eu/eli/ontology#> . 
+@prefix frbroo: <http://iflastandards.info/ns/fr/frbr/frbroo> . 
+@prefix nmm: <http://www.semanticdesktop.org/ontologies/2009/02/19/nmm#> . 
+@prefix oad: <http://culturalis.org/oad#> .
+@prefix rdac: <http://rdaregistry.info/Elements/c/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> . 
+@prefix rico: <https://www.ica.org/standards/RiC/ontology> . 
+@prefix skos: <http://www.w3.org/2004/02/skos/core.html> . 
+@prefix dbo: <http://dbpedia.org/ontology/> . 
+@prefix rdf: <https://www.w3.org/TR/rdf-schema/#>.
+@prefix foaf: <https://xmlns.com/foaf/0.1/>.
+@prefix person: <http://www.w3.org/ns/person/>.
+@prefix gnd: <http://d-nb.info/gnd/>.
+@prefix schema: <http://schema.org/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix viaf: <http://viaf.org/viaf/>.
+@prefix person: <http://www.w3.org/ns/person/>.
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#>.
+@prefix geonames: <http://sws.geonames.org/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+
+<object/SanPa>
+    foaf:topic <https://sanpa-in-lod.github.io/SanPa-in-LOD/person/Vincenzo-Muccioli>;
+    nmm:director <http://viaf.org/viaf/35146635435241981343>; #Gianluca Neri
+    crm:P72_has_language <http://d-nb.info/gnd/4114056-4>; #italian (by library of congress)
+    nmm:genre <http://id.loc.gov/authorities/subjects/sh85088115>; #documentary 
+    dcterms:title <https://sanpa-in-lod.github.io/SanPa-in-LOD/titles/SanPa_sins_of_the_saviour> ;#"SanPa, sins of the saviour"
+    dcterms:alternative <https://sanpa-in-lod.github.io/SanPa-in-LOD/titles/SanPa_luci_e_tenebre_su_San_Patrignano> ;#"SanPa, luci e tenebre su San Patrignano";
+    nmm:releaseDate "30-12-2020"^^xsd:dateTime;
+    oad:isContainedIn <http://viaf.org/viaf/129442622>; #IMDb
+    ebucore:isReleasedBy <http://viaf.org/viaf/110144647635343459670>; #Netflix
+    nmm:writer <http://viaf.org/viaf/35146635435241981343>; #Gianluca Neri
+    nmm:writer <http://viaf.org/viaf/238144647696733193184>; #Carlo Gabardini
+    crm:P62_depicts <https://sanpa.in-lod.github.io/SanPa-in-LOD/entity/names/San_Patrignano>; #san patrignano
+    dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/SanPa_-_Luci_e_tenebre_di_San_Patrignano>.   #documentary
+<titles/SanPa_sins_of_the_saviour>
+    rdf:label "SanPa, sins of the Saviour"^^xsd:string. 
+<titles/SanPa_luci_e_tenebre_su_San_Patrignano>
+    rdf:label "SanPa, luci e tenebre su San Patrignano"^^xsd:string. 
+<object/ritratto-di-vincenzo-muccioli>
+    crm:P2_has_type <http://vocab.getty.edu/aat/300015637>; #portrait
+    crm:P102_has_title <https://sanpa-in-lod.github.io/SanPa-in-LOD/titles/ritratto-di-vincenzo-muccioli>;
+    crm:P90_has_value <http://vocab.getty.edu/aat/300266036>; #dimensions
+    crm:P32_used_general_tecnhique <https://sanpa-in-lod.github.io/SanPa-in-LOD/techniques/oil-on-canvas>;
+    dcterms:creator <https://sanpa-in-lod.github.io/SanPa-in-LOD/person/Yan-Pei-Ming>; #Yan Pei-Ming
+    dbo:wikiPageExternalLink <https://en.wikipedia.org/wiki/Yan_Pei-Ming>;
+    dcterms:date "2018"^^xsd:dateTime;
+    crm:P51_has_former_or_current_owner <http://Person/4779217282Moratti>; #Gian Marco Moratti
+    dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Gian-Marco-Moratti>;
+    foaf:topic <https://sanpa-in-lod.github.io/SanPa-in-LOD/person/Vincenzo-Muccioli>. #Vincenzo Muccioli
+<person/Vincenzo-Muccioli>
+    rdf:type <https://sanpa-in-lod.github.io/SanPa-in-LOD/person>;
+    foaf:name <https://sanpa-in-lod.github.io/SanPa-in-LOD/person/names/vincenzo-muccioli>;
+    foaf:givenName "Vincenzo"^^xsd:string;
+    foaf:FamilyName "Muccioli"^^xsd:string;
+    foaf:gender <http://vocab.getty.edu/aat/300189559>; #male
+    gndo:dateOfBirth "6-01-1934"^^xsd:dateTime;
+    gndo:dateOfDeath "19-09-1995"^^xsd:dateTime;
+    person:placeOfBirth geonames:3169361; #Rimini
+    person:placeOfDeath geonames:3214913; #Coriano
+    owl:sameAs <https://viaf.org/viaf/53224843/>; #muccioli
+    foaf:isPrimaryTopicOf <https://sanpa-in-lod.github.io/SanPa-in-LOD/object/ritratto-di-vincenzo-muccioli>;
+    dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Vincenzo_Muccioli>.
+<object/legge-jervolino-vassalli>
+    rdf:type <http://vocab.getty.edu/aat/300417694>; #law
+    eli:title "Testo unico delle leggi in materia di discplina  degli stupefacenti e sostanze psicotrope, prevenzione, cura e riabilitazione dei relativi stati di tossicodipendenza"^^xsd:string;
+    eli:date_publication "10/9/1990"^^xsd:dateTime;
+    eli:first_date_entry_in_force "11/15/1990"^^xsd:dateTime;
+    eli:is_about <https://id.loc.gov/authorities/subjects/sh85039719.html>; #drugs
+    eli:publisher_agent <https://viaf.org/viaf/50917594/>; 
+    #Rosa Russo Jervolino
+    dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Rosa_Russo_Iervolino>;
+    eli:publisher_agent <https://viaf.org/viaf/34525599/>;
+    #Giuliano Vassalli
+    dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Giuliano_Vassalli>;
+    eli:responsability_of_agent <http://id.loc.gov/authorities/names/no93011056>. #Gazzetta Ufficiale della Repubblica Italiana
+<person/rosa-russo-jervolino>
+    rdf:type <https://sanpa-in-lod.github.io/SanPa-in-LOD/person>;
+    foaf:name <https://sanpa-in-lod.github.io/SanPa-in-LOD/person/names/rosa-russo-jervolino>;
+    foaf:givenName "Rosa"^^xsd:string;
+    foaf:FamilyName "Jervolino"^^xsd:string;
+    foaf:gender <http://vocab.getty.edu/aat/300189557>; #female;
+    gndo:dateOfBirth "17-09-1936"^^xsd:dateTime;
+    person:placeOfBirth geonames:3172394; #Napoli
+    gndo:professionOrOccupation <http://vocab.getty.edu/aat/300025474>; #politician
+    owl:sameAs <https://viaf.org/viaf/50917594/>; #Jervolino
+    dcterms:contributor <object/legge-jervolino-vassalli>.

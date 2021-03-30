@@ -1,0 +1,98 @@
+SUBJECT,PREDICATE,OBJECT
+,,
+Legge Vassalli-Jervolino,eli:title,"Testo unico delle leggi in materia di discplina  degli stupefacenti e sostanze psicotrope, prevenzione, cura e riabilitazione dei relativi stati di tossicodipendenza"
+Legge Vassalli-Jervolino,dcterms:alternative,Legge Vassalli-Jervolino
+Legge Vassalli-Jervolino,eli:number,309
+Legge Vassalli-Jervolino,eli:date_publication,10/9/1990
+Legge Vassalli-Jervolino,eli:first_date_entry_in_force,11/15/1990
+Legge Vassalli-Jervolino,eli:is_about,Drugs (…)
+Legge Vassalli-Jervolino,eli:publisher_agent,Rosa Russo Jervolino and Giuliano Vassalli
+Legge Vassalli-Jervolino,eli:responsability_of_agent,Gazzetta Ufficiale della Repubblica Italiana
+,,
+Il giornale di San Patrignano,bf:title,Il giornale di San Patrignano 
+Il giornale di San Patrignano,dcterms:publisher,Comunità di San Patrignano
+Il giornale di San Patrignano,crm:P4_has_time_span,1981
+Il giornale di San Patrignano,bf:originPlace,Ospedaletto di Coriano (RN)
+Il giornale di San Patrignano,crm:P72_has_language,Italian
+Il giornale di San Patrignano,dcterms:format,Montly magazine
+,,
+TV program: interview with Muccioli and Pannella,oad:title,"La cronaca in diretta 
+Trasmissione di Rai Due 
+dedicata al VI Congresso 
+del Cora nella 
+Comunità di San Patrignano"
+TV program: interview with Muccioli and Pannella,oad:date,1/27/1995
+TV program: interview with Muccioli and Pannella,crm:P50_has_current_keeper,Radio Radicale
+TV program: interview with Muccioli and Pannella,ebucore:Duration,0:18:33
+TV program: interview with Muccioli and Pannella,oad:hasExtentAndMedium,video
+TV program: interview with Muccioli and Pannella,crm:P11_had_participant,"Marco Pannella
+Mario Corbellini
+Alessandro Cecchi Paone
+Maurizio Turco (+ Muccioli??)"
+,,
+Heroin,dcterms:title,Heroin
+Heroin,nmm:performer,The Velvet Underground
+Heroin,nmm:lyricist,Lou Reed
+Heroin,nmm:genre,"Proto-Punk, Experimental Rock"
+Heroin,oad:iscontainedIn,MusicBrainz
+Heroin,nmm:MusicAlbum,The Velvet Underground & Nico
+Heroin,ebucore:duration,0:07
+Heroin,nmm:releaseDate,1967
+Heroin,dcterms:rightsholder,Verve Records
+Heroin,frbroo:R38_refers_to_schema,Drugs addiction
+,,
+Portrait of Vincenzo Muccioli,crm:E35_Title,Ritratto di Vincenzo Muccioli
+Portrait of Vincenzo Muccioli,crm:P90_has_value,300 cm x 300 cm
+Portrait of Vincenzo Muccioli,crm:P32_used_general_tecnhique,Oil on canvas
+Portrait of Vincenzo Muccioli,dc:creator,Yan Pei Ming
+Portrait of Vincenzo Muccioli,dc:date,2018
+Portrait of Vincenzo Muccioli,crm:P2_has_type,Painting
+Portrait of Vincenzo Muccioli,crm:p51_has_former_or_current_owner,Gian Marco Moratti
+Portrait of Vincenzo Muccioli,crm:P_50_has_current_keeper,Collezione Fondazione San Patrignano
+,,
+Photograph of the Meeting,oad:title,"Incontro dell'Ufficio di Presidenza con Vincenzo Muccioli, fondatore della Comunità di San Patrignano"
+Photograph of the Meeting,rico:hasProductionTechniqueType,Photo
+Photograph of the Meeting,dc:creator,Unknown author
+Photograph of the Meeting,crm:P7_took_place_at,Bologna
+Photograph of the Meeting,crm:P50_has_current_keeper,Regione Emilia-Romagna Assemblea Legislativa
+Photograph of the Meeting,oad:date,"October 6th, 1987"
+,,
+"Book: La mia battaglia contro la droga, l'emarginazione e l'egoismo",bf:title,"La mia battaglia contro la droga,l'emarginazione e l'egoismo"
+"Book: La mia battaglia contro la droga, l'emarginazione e l'egoismo",dcterms:contributor,Giacalone Davide
+"Book: La mia battaglia contro la droga, l'emarginazione e l'egoismo",bf:genreForm,Essay
+"Book: La mia battaglia contro la droga, l'emarginazione e l'egoismo",crm:P72_has_language,Italian
+"Book: La mia battaglia contro la droga, l'emarginazione e l'egoismo",bf:identifiedBy,[ISBN]88-200-1523-4
+"Book: La mia battaglia contro la droga, l'emarginazione e l'egoismo",dcterms:publisher,Sperlink & Kupfer
+"Book: La mia battaglia contro la droga, l'emarginazione e l'egoismo",crm:P4_has_time_span,1993
+"Book: La mia battaglia contro la droga, l'emarginazione e l'egoismo",frbroo:F9_Place,Milan
+"Book: La mia battaglia contro la droga, l'emarginazione e l'egoismo",crm:P14_carried_out_by,Vincenzo Muccioli
+,,
+"Article: San Patrignano, si attendono chiarimenti",dcterms: subject,Trial
+"Article: San Patrignano, si attendono chiarimenti",crm:P50_has_current_keeper,Istituto Sturzo Roma
+"Article: San Patrignano, si attendono chiarimenti",dcterms:creator,Unknown
+"Article: San Patrignano, si attendono chiarimenti",oad:title,"San Patrignano, si attendono chiarimenti "
+"Article: San Patrignano, si attendono chiarimenti",rico:hasProductionTechniqueType,Newspaper Article 
+"Article: San Patrignano, si attendono chiarimenti",oad:date,20th March 1993
+"Article: San Patrignano, si attendono chiarimenti",dcterms:publisher,Il Popolo 
+"Article: San Patrignano, si attendono chiarimenti",crm:P129_is_about,San Patrignano
+,,
+"Tv-show: SanPa, sins of the saviours ",nmm:director,Gianluca Neri
+"Tv-show: SanPa, sins of the saviours ",crm:P72_has_language,Italian
+"Tv-show: SanPa, sins of the saviours ",nmm:genre,Documentary
+"Tv-show: SanPa, sins of the saviours ",dcterms:alternative,"SanPa, luci e tenebre su San Patrignano"
+"Tv-show: SanPa, sins of the saviours ",dcterms:title,"SanPa, sins of the saviour"
+"Tv-show: SanPa, sins of the saviours ",nmm:releaseDate,30th December 2020
+"Tv-show: SanPa, sins of the saviours ",oad:isContainedIn,IMDB
+"Tv-show: SanPa, sins of the saviours ",ebucore:isReleasedBy,Netflix
+"Tv-show: SanPa, sins of the saviours ",nmm:writer,Gianluca Neri & Carlo Gabardini
+"Tv-show: SanPa, sins of the saviours ",crm:P62_depicts,San Patrignano 
+,,
+Movie: Amore Tossico ,bf:language,Italian 
+Movie: Amore Tossico ,crm:P4_has_time_span,5th September 1983
+Movie: Amore Tossico ,crm:P50_has_current_keeper,IMBd
+Movie: Amore Tossico ,crm:P7_took_place_at,Rome
+Movie: Amore Tossico ,ebucore:isReleasedBy,Gaumont Italia
+Movie: Amore Tossico ,nmm:director,Claudio Caligari
+Movie: Amore Tossico ,bf:title,Amore Tossico
+Movie: Amore Tossico ,bf:genreForm,Drama
+Movie: Amore Tossico ,dcterms:subject,Heroin Addicts

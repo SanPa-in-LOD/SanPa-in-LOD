@@ -1,0 +1,42 @@
+@base <https://SanPa-in-LOD.github.io/>.
+@prefix rdf: <https://www.w3.org/TR/rdf-schema/#>.
+@prefix foaf: <https://xmlns.com/foaf/0.1/>.
+@prefix person: <http://www.w3.org/ns/person/>.
+@prefix gnd: <http://d-nb.info/gnd/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/>.
+@prefix schema: <http://schema.org/>.
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix dcterms: <http://purl.org/dc/terms/>.
+@prefix viaf: <http://viaf.org/viaf/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema>.
+@prefix person: <http://www.w3.org/ns/person/>.
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#>.
+@prefix geonames: <http://sws.geonames.org/>.
+
+
+
+<object/Ritratto_Muccioli>
+	rdf:type crm:P2_has_type;
+	crm:E_35_Title "Ritratto di Vincenzo Muccioli";
+	crm:P90_has_value "300 cm x 300 cm";
+	crm:P32_used_general_tecnhique "Oil on canvas";
+	dc:creator <https://viaf.org/viaf/871725/>; #Yan Pei-Ming
+	dbo:wikiPageExternalLink <https://en.wikipedia.org/wiki/Yan_Pei-Ming>;
+	dc:date "2018";
+	crm:P51_has_former_or_current_owner <http://Person/4779217282Moratti>; #Gian Marco Moratti
+	dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Gian_Marco_Moratti>;
+	foaf:topic <https://viaf.org/viaf/53224843/>; #Vincenzo Muccioli
+	dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Vincenzo_Muccioli>.
+<person/Vincenzo_Muccioli>
+	rdf:type foaf:person;
+	foaf:name "Vincenzo Muccioli";
+	foaf:givenName "Vincenzo";
+	foaf:FamilyName "Muccioli";
+	foaf:gender "male";
+	gndo:dateOfBirth "6-01-1934";
+	gndo:dateOfDeath "19-09-1995";
+	person:placeOfBirth geonames:3169361; #Rimini
+	person:placeOfDeath geonames:3214913; #Coriano
+	foaf:isPrimaryTopicOf <object/Ritratto_Muccioli>;
+	dbo:wikiPageExternalLink <https://it.wikipedia.org/wiki/Vincenzo_Muccioli>.

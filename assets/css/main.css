@@ -110,7 +110,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		color: #3fb1a3;
-		text-decoration: underline dotted;	}
+		text-decoration: none;	}
 	a.alt{
 		color: black;
 	}
